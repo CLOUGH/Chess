@@ -31,7 +31,7 @@ void Chess::mainMenu(){
 	cout << "1 MOVE" << endl;
 	cout << "0 EXIT" << endl;
 	cin >> input;
-	if (input = '1'){
+	if (input == '1'){
 		moveMenu();
 	}
 	
