@@ -41,7 +41,7 @@ void Chess::moveMenu(){
 	int row;
 	char column;
 
-	system("cls");
+	system("clear");
 	cout << player[turn] << "'s Turn" << endl << endl;
 	this->board.paint();
 	cout << "Select chess piece : " << endl;
@@ -54,7 +54,7 @@ void Chess::moveMenu(){
 }
 void Chess::selectedPieceMenu(int row, char column){
 	char new_input;
-	system("cls");
+	system("clear");
 	cout << player[turn] << "'s Turn" << endl << endl;
 	this->board.paint();
 	cin >> new_input;
